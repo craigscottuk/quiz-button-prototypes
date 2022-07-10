@@ -2,25 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, 
+    minimum-scale=1, maximum-scale=1, user-scalable=0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <title>quiz-button-prototypes</title>
   </head>
   <body class="dark">
-    <div class="container">
-      <button id="answBtn-default" class="answBtn">
-        This btn is up
-      </button>
-      <button id="answBtn-correct" class="answBtn answBtn--correct">
-        This btn is up
-      </button>
-      <button id="answBtn-incorrect" class="answBtn answBtn--incorrect">
-        This btn is up
-      </button>
-      <button id="answBtn-disabled" class="answBtn answBtn--disabled">
-        This btn is up
-      </button>
+    <div class="app">
+      <main>
+        <div class="answer-buttons">
+          <button id="answBtn-default" class="answBtn">
+            This btn is up
+          </button>
+          <button id="answBtn-correct" class="answBtn answBtn--correct">
+            This btn is up
+          </button>
+          <button id="answBtn-incorrect" class="answBtn answBtn--incorrect">
+            This btn is up
+          </button>
+          <button id="answBtn-disabled" class="answBtn answBtn--disabled">
+            This btn is up
+          </button>
+        </div>
+      </main>
+
+      <footer>
+        <button id="nxtBtn" class="nxtBtn">Next</button>
+      </footer>
     </div>
 
     <script src="main.js"></script>
